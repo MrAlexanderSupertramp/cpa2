@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Limelight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/limelight/v21/XLYkIZL7aopJVbZJHDuYPQ.ttf) format('truetype');
+}

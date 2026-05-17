@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/marcellus/v14/wEO_EBrOk8hQLDvIAF8FUQ.ttf) format('truetype');
+}

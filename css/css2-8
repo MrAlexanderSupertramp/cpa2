@@ -1,0 +1,42 @@
+﻿@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/golostext/v7/q5uXsoe9Lv5t7Meb31EcOR9UdVTNs822plVRRQ5c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(s/golostext/v7/q5uXsoe9Lv5t7Meb31EcOR9UdVTNs822plVjRQ5c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(s/golostext/v7/q5uXsoe9Lv5t7Meb31EcOR9UdVTNs822plWPQg5c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/golostext/v7/q5uXsoe9Lv5t7Meb31EcOR9UdVTNs822plW2Qg5c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(s/golostext/v7/q5uXsoe9Lv5t7Meb31EcOR9UdVTNs822plXRQg5c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(s/golostext/v7/q5uXsoe9Lv5t7Meb31EcOR9UdVTNs822plX4Qg5c.ttf) format('truetype');
+}

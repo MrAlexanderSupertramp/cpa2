@@ -1,0 +1,257 @@
+/* ===================================
+    Crafto - Branding Studio
+====================================== */
+/* font */
+@import url('../../css2-23');
+/* variable */
+:root {      
+    --alt-font: "Archivo", sans-serif; 
+    --primary-font: "Archivo", sans-serif;
+    --base-color:#FF6036;
+    --dark-gray: #151515;
+    --medium-gray:#626262;
+}
+/* reset */
+body { 
+    font-size: 17px;
+    line-height: 28px;
+}
+/* heading */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -1px;
+}
+h1, .h1 {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+.h2, h2 {
+    line-height: 3.2rem;
+}
+.h3, h3 {
+    line-height: 2.8rem;
+}
+.h6, h6 {
+    line-height: 2.2rem;
+}
+/* btn */
+.btn {
+    letter-spacing:0px;
+    text-transform: none;
+}
+.btn.btn-extra-large {
+    font-size: 19px;
+    padding: 22px 45px;
+}
+.btn.btn-large {
+    font-size: 16px;
+    padding: 16px 34px;
+}
+.btn.btn-medium {
+    font-size: 14px;
+    padding: 12px 24px;
+}
+.btn.btn-small {
+    font-size: 12px;
+    padding: 9px 20px;
+}
+.btn.btn-very-small {
+    font-size: 11px;
+    padding: 9px 16px 7px;
+}
+.btn.btn-switch-text.btn-extra-large>span {
+    padding: 22px 47px;
+}
+.btn.btn-switch-text.btn-large>span {
+    padding: 16px 36px;
+}
+.btn.btn-switch-text.btn-medium>span {
+    padding: 12px 26px;
+}
+.btn.btn-switch-text.btn-small>span {
+    padding: 7px 22px;
+}
+.btn.btn-switch-text.btn-very-small>span {
+    padding: 11px 18px 9px;
+}
+.btn.btn-link {
+    padding: 0 0 2px;
+}
+.btn.btn-transparent-light-gray:active, .btn.btn-transparent-light-gray:hover {
+    border-color: var(--dark-gray);
+}
+/* gradient background color */
+.bg-gradient-misty-rose {
+    background-image: linear-gradient(360deg, rgba(254, 243, 240, 0.5) 0%, #fff6f3 100%);
+}
+/* text gradient color */
+.text-gradient-light-gray-white {
+    background-image: linear-gradient(to bottom, #eaeaea, #efefef, #f7f7f7, #fafafa, #ffffff); 
+} 
+/* background */
+.bg-bright-turquoise {
+    background-color: #ffddd4;
+}
+.bg-seashell {
+    background-color: #fff6f3;
+}
+.bg-base-color-transparent {
+    background-color: rgba(255, 96, 54, .8);
+}
+/* padding */
+.pb-190px {
+    padding-bottom: 190px;
+}
+/* bg sliding line */ 
+.bg-sliding-line-dark-gray { 
+    background-image: linear-gradient(135deg, transparent 45%, #464646 45%, #464646 55%, transparent 0);
+    background-size: 5px 5px;
+}
+/* header */
+header .container-fluid {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.navbar .navbar-nav .nav-link {
+    font-size: 17px;
+}
+.navbar .btn.btn-switch-text.btn-large > span {
+    padding: 13px 25px 12px;
+}
+header .left-nav .navbar-nav:before {
+    background: rgba(0,0,0,.3);
+}
+/* highlight separator */
+.highlight-separator[data-shadow-animation] span,
+.highlight-separator[data-shadow-animation] span img {
+    height: 29px;
+    z-index: -1;
+}
+.highlight-separator[data-shadow-animation] span {
+    bottom: -13px;
+}
+/* height */
+.h-430px {
+    height: 430px !important;
+}
+/* position */
+.bottom-minus-180px {
+    bottom: -180px;
+}
+/* HTML video play */
+.video-icon-medium .video-icon {
+    width: 60px;
+    height: 60px;
+}
+.video-icon-medium .video-icon .video-icon-sonar .video-icon-sonar-bfr {
+    width: 110px;
+    height: 110px;
+}
+/* blog button */
+.categories-btn {
+    font-size: 12px;
+}
+/* accordion style 02 */
+.accordion-style-02 .accordion-item .accordion-header {
+    padding: 24px 0;
+}
+.accordion-style-02 .accordion-item .accordion-body {
+    padding-right: 35px;
+}
+/* review star */
+.review-star-icon i {
+    color: var(--base-color);
+}
+/* animation rotation */
+.animation-rotation-slow {
+    -webkit-animation: rotation 35s infinite linear;
+}
+/* list */
+.list-style-02 li {
+    align-items: center;
+}
+/* portfolio */
+.portfolio-transform .portfolio-box .caption {
+    box-shadow: none;
+    padding: 10px 35px;
+}
+/* page title */
+.page-title-extra-large h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+}
+.page-title-extra-large h1 {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+/* swiper */
+.swiper-pagination-style-2 .swiper-pagination-bullet:first-child{
+    margin-left: 0 !important;
+}
+.swiper-pagination-style-2 .swiper-pagination-bullet {
+    margin: 0 10px !important;
+}
+/* footer */
+footer {
+    line-height: 24px;
+}
+footer ul li {
+    margin-bottom: 3px;
+}
+footer ul li a {
+    color: var(--white);
+}
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1270px;
+    }
+}
+@media (max-width: 1900px) {
+    .fs-275 {
+        font-size: 14rem;
+        line-height: 14rem;
+    }
+}
+@media (max-width: 1600px) {
+    header .container-fluid {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    h1, .h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .fs-275 {
+        font-size: 12rem;
+        line-height: 12rem;
+    }
+}
+@media (max-width: 1399px) {
+    .navbar .navbar-nav .nav-link {
+        padding: 10px 10px;
+    }
+    .fs-275 {
+        font-size: 9rem;
+        line-height: 9rem;
+    }
+}
+@media (max-width: 991px) {
+    .fs-275 {
+        font-size: 8rem;
+        line-height: 8rem;
+    }
+}
+@media (max-width: 767px) { 
+    .fs-275 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+}
