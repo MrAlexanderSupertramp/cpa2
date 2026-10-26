@@ -421,7 +421,7 @@ textarea.form-control {
   background-color: var(--theme-color-dark);
 }
 .dark-layout .preloader:after {
-  background-image: url(../images/logo.png);
+  background-image: url(../images/favicon.png);
 }
 .dark-layout .sticky-header {
   background-color: var(--theme-color-dark);
